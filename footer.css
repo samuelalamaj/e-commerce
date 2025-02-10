@@ -1,0 +1,26 @@
+footer{
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.more-information{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15rem;
+    justify-content: center;
+    align-items: center;
+}
+.more-information main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+
+.more-information main ul li{
+    list-style: none;
+}
+.more-information .ul-header{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
