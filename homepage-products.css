@@ -33,6 +33,7 @@ aside h1{
     color: white;
     margin-top: 1em;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 
@@ -194,6 +195,7 @@ section img{
     width: 20rem;
     height: 25rem;
     text-align: start;
+    border: 1px solid white;
 }
 .product-card:hover{
     border: 1px solid black;
@@ -224,3 +226,9 @@ section img{
     padding-left: 1rem;
     padding-bottom: 0.5rem;
 }
+
+
+.product-detail-section {
+    display: none;
+}
+

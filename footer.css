@@ -1,19 +1,24 @@
-footer{
-    margin-right: 3rem;
-    margin-left: 3rem;
-    margin-top: 3rem;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .more-information{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15rem;
-    justify-content: center;
-    align-items: center;
+    gap: 10rem;
+    align-items: first baseline;
+    padding:3rem;
+
+    background-color: rgb(244,244,245);
+    
 }
+
 .more-information main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 5rem;
+    gap: 1.5rem;
+}
+
+.more-information ul{
+    width: 10rem;
 }
 
 .more-information main ul li{
@@ -22,5 +27,122 @@ footer{
 .more-information .ul-header{
     font-size: 24px;
     font-weight: 700;
+    font-stretch: 100%;
+    line-height: 33.6px;
     text-transform: capitalize;
+    margin-bottom: 3rem;
+}
+.more-information ul a{
+    text-decoration: none;
+}
+.more-information ul a li{
+    font-size: 14px;
+    line-height: 21px;
+    padding: 13px 0px;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-align: left;
+    width: 100%;
+    color: black;
+}
+
+.more-information ul a li:hover{
+    color: rgb(88,77,136);
+}
+
+/*Subscribe */
+
+.subscribe h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-stretch: 100%;
+    line-height: 33.6px;
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+}
+
+.subscribe p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-stretch: 100%;
+}
+
+.input-email{
+    margin-top: 2rem;
+}
+.input-email input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 12rem;
+    padding: 12px 24px 12px 0px;
+}
+
+.input-email input::placeholder{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-stretch: 100%;
+}
+.input-email input:focus{
+    outline:none ;
+}
+
+.input-email button{
+    color:white;
+    background-color: black;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 22px;
+    font-size: 100%;
+    text-align:center;
+    border: none;
+    cursor: pointer;
+}
+.input-email button:hover{
+    opacity: 0.8;
+    
+} 
+
+
+/* Footer */
+footer{
+    background-color: rgb(244,244,245);
+    position: sticky;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15rem;
+    border-top: 1px solid black;
+    align-items: first baseline;
+    
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-stretch: 100%; 
+}
+
+footer .terms{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+footer .social-media{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: flex-end;
+    
+}
+footer .social-media ion-icon{
+    font-size: 20px;
+    font-weight: 400;
+    font-stretch: 100%;
+}
+
+footer .social-media ion-icon:hover{
+    color: rgb(88,77,136);
 }

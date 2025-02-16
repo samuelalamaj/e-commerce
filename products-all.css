@@ -1,0 +1,40 @@
+.all-products-section{
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.all-products-section .all-products-title{
+    font-size: 30px;
+    font-weight:700;
+    font-stretch: 100%;
+    text-transform: capitalize;
+}
+
+.products-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin-left: 2rem;
+}
+
+.sort-select{
+    margin-right: 2rem;
+    width: 10rem;
+    padding: 0.5rem 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: 100%;
+    border: transparent;
+}
+
+.category-select{
+    width: 10rem;
+    padding: 0.5rem 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: 100%;
+    border:transparent;
+}
+.back-btn{
+    margin-top: 1rem;
+}

@@ -1,0 +1,100 @@
+
+.product-detail-section{
+    margin:3rem;
+}
+
+.back-btn{
+    font-size: 14px;
+    font-weight: 400;
+    border:none;
+    background-color: transparent;
+
+}
+.product-detail-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 1rem;
+}
+
+.product-image img {
+    width: 65%;
+    height: fit-content;
+    
+}
+
+.product-info h2{
+    font-size: 32px;
+    font-weight: 700;
+    font-stretch: 100%;
+    text-align: start;
+}
+
+.price{
+    font-size: 23px;
+    font-weight: 700;
+    font-stretch: 100%;
+    text-align: start;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    font-stretch: 100%;
+    margin: 0px 0px  18px;
+    line-height: 24px;
+    text-transform:initial;
+}
+.description:first-letter{
+    text-transform: capitalize;
+}
+
+.quantity-selector{
+    width: 6rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+.quantity-selector button{
+    border: none;
+    padding: 3px;
+    border-radius: 16px;
+}
+.quantity-selector button ion-icon{
+   text-align: center;
+   align-items: center;
+   border: none;
+   font-size: 14px;
+   color: black; 
+}
+
+#quantity-value{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: normal;
+    font-stretch: 100%;
+}
+
+
+.add-to-cart-btn{
+    margin-top: 2rem;
+    width: 60%;
+    height: fit-content;
+    padding: 1rem 0;
+    background-color: black;
+    color: white;
+    border: none;
+
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: normal;
+    font-stretch: 100%;
+    text-align: center;
+}
+
+.add-to-cart-btn:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
